@@ -1,0 +1,23 @@
+- /src
+  - /assets : images, svgs, global.css, non-js code
+  - /context : global context
+    - /context/__tests__ : tests for context
+  - /data : json data for the app
+  - /hooks : custom hooks
+    - /hooks/__tests__ : tests for hooks
+  - /utils  : utility functions, pure functions only
+    - /utils/__tests__ : tests for utils
+  - /components : components, general small components, sometimes only presentational components they dont usually have any state or logic and can be reused anywhere in the app
+    - /components/ui: ui components
+    - /components/forms: form components
+    - /components/__tests__ : tests for components
+  - /pages : pages, include only those code that is relevant to that specific page. One folder inside /pages for each page on your screen.
+    - /pages/__tests__ : tests for pages
+    - /layouts: used for laying things out. like navbars, sidebars, footers, etc.
+    - lib/ : external libraries. fetch, axios,
+    - services/ integrating with the API
+
+
+
+
+
