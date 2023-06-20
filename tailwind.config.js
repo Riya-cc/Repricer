@@ -2,7 +2,9 @@
 module.exports = {
   content: [
     "./src/**/*.{html,js,jsx,ts,tsx}",
-    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
+    "./node_modules/tailwind-datepicker-react/dist/**/*.js",
+    "./node_modules/tailwind-datepicker-react/dist/**/*.js",
   ],
   theme: {
     extend: {
@@ -14,7 +16,7 @@ module.exports = {
           "100": "#f9fcff",
           "200": "#5e7f68",
           "300": "rgba(250, 250, 250, 0)",
-          "400": "rgba(0, 0, 0, 0.26)",
+          "400": "#b2b7bc",
         },
         cadetblue: "#648c85",
         white: "#fff",
