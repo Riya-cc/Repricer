@@ -26,7 +26,7 @@ import React, { useState } from "react"
     format: "mm/dd/yyyy",
   }
   
-  function CustomDate() {
+function CustomDate({ label }) {
     const [show, setShow] = useState(false)
     const handleChange = (selectedDate) => {
       console.log(selectedDate)
@@ -36,7 +36,8 @@ import React, { useState } from "react"
     }
   
     return (
-      <div>
+      <div className="flex flex-col items-start gap-1 grow">
+        <label htmlFor={label} className="px-1 font-normal text-base leading-4 text-darkslategray">{label}</label>
         <Datepicker options={options} onChange={handleChange} show={show} setShow={handleClose} />
       </div>
     )
