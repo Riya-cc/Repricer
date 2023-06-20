@@ -13,7 +13,7 @@ function Header() {
           Repricer
         </p>
       </header> 
-      <hr class="w-[800px] mx-auto flex h-1 bg-cadetblue border-0 rounded md:my-8 dark:bg-gray-700 justify-center" />
+      <hr className="w-[800px] mx-auto flex h-[3px] bg-cadetblue border-0 md:my-8 dark:bg-gray-700 justify-center" />
     </>
   );
 };
