@@ -2,7 +2,7 @@
 function Dropdown({ label, placeholder }) {
   return (
     <div className="flex flex-col items-start gap-1 grow">
-      <label htmlFor={label} className="px-1 font-normal text-base leading-4 text-darkslategray">{label}</label>
+      <label  className="px-1 font-normal text-base leading-4 text-darkslategray">{label}</label>
       <button id={label} data-dropdown-toggle="dropdown"
         className="border-2 border-lightsteelblue text-non-highlight hover:bg-whitesmoke focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         type="button">{ placeholder } <svg className="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor"

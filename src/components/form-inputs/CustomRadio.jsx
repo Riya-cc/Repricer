@@ -7,6 +7,7 @@ function CustomRadio({ radioItems, label }) {
           <>
             <div className="flex items-center mr-4" key={item.id}>
               <input
+                key={item.id}
                 id={item.id}
                 type="radio"
                 value=""
